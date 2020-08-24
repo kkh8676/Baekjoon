@@ -3,6 +3,7 @@
 // length N stair number ends with 0,1,2,....,8 is from length N-1 stair number ends with 1,2,...,9
 // length N stair number ends with 1,2,3,....,9 is from length N-1 stair number ends with 0,1,...,8
 // 
+// element_row_col = element_row-1_col-1 + element_row-1_col+1
 // 
 
 import java.util.Scanner;

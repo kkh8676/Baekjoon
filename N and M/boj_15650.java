@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class boj_15649{
+class boj_15650{
 	static int N;
 	static int M;
 
@@ -41,7 +41,7 @@ class boj_15649{
 		}// end of ending condition
 
 		// visit the adjacent vertex
-		for (int i=1; i<=N; i++) {
+		for (int i=curNum+1; i<=N; i++) {
 			if(isV[i] != 1){
 				permutation(i,round+1);
 
